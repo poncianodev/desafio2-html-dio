@@ -1,0 +1,83 @@
+html,
+body {
+  margin: 0;
+}
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+.menu {
+  width: 15%;
+  background-color: #00d39b;
+  padding: 10px 20px 0px;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.menu ul li {
+  margin-bottom: 0.5rem;
+}
+
+.menu ul li a {
+  color: #000;
+}
+
+.menu ul li a:hover {
+  color: rgb(255, 0, 0);
+}
+
+.header {
+  background-color: #4de0b9;
+  min-height: 150px;
+}
+.content {
+  background-color: white;
+  min-height: 300px;
+  padding: 20px;
+}
+.footer {
+  background-color: #4de0b9;
+  min-height: 150px;
+}
+
+table {
+  border: 0.5px solid black;
+  padding: 10px;
+}
+
+form,
+fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 20px 0;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100px;
+  padding: 5px;
+  margin: 5px 0;
+}
